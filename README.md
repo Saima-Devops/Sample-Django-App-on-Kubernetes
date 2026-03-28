@@ -214,9 +214,9 @@ minikube stop
 
 ### ✅ Notes for Minikube users
 
-- The image is fully self-contained, so the user does not need your GitHub repo.
-- The /demo endpoint is the main route for the Django app.
-- Minikube automatically handles networking differently than Docker Desktop; use minikube service or <minikube-ip>:NodePort.
+- The **image** is fully self-contained, so the user does not need any code download from any GitHub repo.
+- The **/demo** endpoint is the main route for the Django app.
+- **Minikube** automatically handles networking differently than Docker Desktop; use minikube service or <minikube-ip>:NodePort.
 
 
 ----

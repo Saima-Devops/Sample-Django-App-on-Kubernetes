@@ -139,7 +139,7 @@ kubectl get nodes
 
 Since Minikube has its own Docker environment, you can use your Docker Hub image:
 ```bash
-kubectl create deployment sample-python-app --image=yourusername/sample-python-app:latest
+kubectl create deployment sample-python-app --image=saim2026/k8s-sample-proj:v1
 ```
 
 This creates a pod running your Django app inside Minikube.
@@ -193,7 +193,7 @@ curl http://<minikube-ip>:<NodePort>/demo
 If a new image version is released:
 
 ```bash
-kubectl set image deployment/sample-python-app sample-python-app=yourusername/sample-python-app:<new-version>
+kubectl set image deployment/sample-python-app sample-python-app=saim2026/k8s-sample-proj:<new-version>
 ```
 
 Kubernetes will automatically rollout the update.

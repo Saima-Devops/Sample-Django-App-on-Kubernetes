@@ -130,9 +130,8 @@ minikube start
 
 Wait for Minikube to start and confirm nodes are ready:
 ```bash
-
 kubectl get nodes
-
+```
 ---
 
 ## Step 2 — Pull Docker image
